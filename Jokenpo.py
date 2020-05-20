@@ -20,7 +20,7 @@ def main(): # Começo
 #
 # Papel
 #
-    if x == 'Papel' and maquina == 'Pedra':
+    if x == 'Papel' or x == 'papel' or x == 'PAPEL' and maquina == 'Pedra':
             os.system('clear')
             print('\033[1;97m'+'----------------------------------------')
             print('\033[1;36m'+'Papel embrulha Pedra, Você ganhou!')
@@ -29,7 +29,7 @@ def main(): # Começo
             main()
 
 
-    elif x == 'Papel' and maquina == 'Tesoura':
+    elif x == 'Papel' or x == 'papel' or x == 'PAPEL' and maquina == 'Tesoura':
         os.system('clear')
         print('\033[1;97m'+'----------------------------------------')
         print('\033[1;31m'+'Tesoura corta Papel, Você perdeu.')
@@ -38,7 +38,7 @@ def main(): # Começo
         main()
 
 
-    elif x == 'Papel' and maquina == 'Papel':
+    elif x == 'Papel' or x == 'papel' or x == 'PAPEL' and maquina == 'Papel':
         os.system('clear')
         print('\033[1;97m'+'----------------------------------------')
         print('\033[1;33m'+'Os dois colocaram Papel, Deu empate.')
@@ -50,7 +50,7 @@ def main(): # Começo
 #
 # Tesoura
 #
-    if x == 'Tesoura' and maquina == 'Papel':
+    if x == 'Tesoura' or x == 'tesoura' or x == 'TESOURA' and maquina == 'Papel':
             os.system('clear')
             print('\033[1;97m'+'----------------------------------------')
             print('\033[1;36m'+'Tesoura corta Papel, Você ganhou!')
@@ -59,7 +59,7 @@ def main(): # Começo
             main()
 
 
-    elif x == 'Tesoura' and maquina == 'Pedra':
+    elif x == 'Tesoura' or x == 'tesoura' or x == 'TESOURA' and maquina == 'Pedra':
         os.system('clear')
         print('\033[1;97m'+'----------------------------------------')
         print('\033[1;31m'+'Pedra quebra Tesoura, Você perdeu.')
@@ -68,7 +68,7 @@ def main(): # Começo
         main()
 
 
-    elif x == 'Tesoura' and maquina == 'Tesoura':
+    elif x == 'Tesoura' or x == 'tesoura' or x == 'TESOURA' and maquina == 'Tesoura':
         os.system('clear')
         print('\033[1;97m'+'----------------------------------------')
         print('\033[1;33m'+'Os dois colocaram Tesoura, Deu empate.')
@@ -79,7 +79,7 @@ def main(): # Começo
 # Pedra
 #
 
-    if x == 'Pedra' and maquina == 'Tesoura':
+    if x == 'Pedra' or x == 'pedra' or x == 'PEDRA' and maquina == 'Tesoura':
             os.system('clear')
             print('\033[1;97m'+'----------------------------------------')
             print('\033[1;36m'+'Pedra quebra Tesoura, Você ganhou!')
@@ -88,7 +88,7 @@ def main(): # Começo
             main()
 
 
-    elif x == 'Pedra' and maquina == 'Papel':
+    elif x == 'Pedra' or x == 'pedra' or x == 'PEDRA' and maquina == 'Papel':
         os.system('clear')
         print('\033[1;97m'+'----------------------------------------')
         print('\033[1;31m'+'Papel embrulha Pedra, Você perdeu.')
@@ -97,7 +97,7 @@ def main(): # Começo
         main()
 
 
-    elif x == 'Pedra' and maquina == 'Pedra':
+    elif x == 'Pedra' or x == 'pedra' or x == 'PEDRA' and maquina == 'Pedra':
         os.system('clear')
         print('\033[1;97m'+'----------------------------------------')
         print('\033[1;33m'+'Os dois colocaram Pedra, Deu empate.')
